@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.Lollypop.svg
 export DESKTOP=/usr/share/applications/org.gnome.Lollypop.desktop
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
+export ALWAYS_SOFTWARE=1
 export DEPLOY_SYS_PYTHON=1
 export DEPLOY_PIPEWIRE=1
 
