@@ -10,4 +10,4 @@ pacman -Syu --noconfirm gst-plugins-bad gst-libav lollypop pipewire-audio pipewi
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
