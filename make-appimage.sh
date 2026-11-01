@@ -11,8 +11,14 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.Lollypop.svg
 export DESKTOP=/usr/share/applications/org.gnome.Lollypop.desktop
 export STARTUPWMCLASS=
+export DEPLOY_GTK=1
+export GTK_DIR=gtk-3.0
 export ALWAYS_SOFTWARE=1
+export DEPLOY_PYTHON=1
 export DEPLOY_PIPEWIRE=1
+export PATH_MAPPING='
+/usr/share/lollypop:${SHARUN_DIR}/share/lollypop
+'
 
 # Deploy dependencies
 quick-sharun /usr/bin/lollypop /usr/share/lollypop
