@@ -11,9 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.Lollypop.svg
 export DESKTOP=/usr/share/applications/org.gnome.Lollypop.desktop
 export STARTUPWMCLASS=org.gnome.Lollypop
-export DEPLOY_GTK=1
-export GTK_DIR=gtk-3.0
-export ALWAYS_SOFTWARE=1
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 export DEPLOY_PYTHON=1
 export DEPLOY_PIPEWIRE=1
 
